@@ -1,6 +1,9 @@
 // import logo from "./logo.svg";
 import "./App.css";
+import ClassClick from "./components/ClassClick";
 import Counter from "./components/Counter";
+import EventBind from "./components/EventBind";
+import FunctionClick from "./components/FunctionClick";
 import Greet from "./components/Greet";
 import Hello from "./components/Hello";
 import Message from "./components/Message";
@@ -14,15 +17,18 @@ function App() {
       {/* <Props name="Paterick" message="I have to return some video tapes"/> */}
 
 
-      <Greet name="Bruce" heroName="Batman"> <p>I am vengeance</p></Greet>
+      {/* <Greet name="Bruce" heroName="Batman"> <p>I am vengeance</p></Greet>
       <Greet name="Clark" heroName="Superman"/>
-      <Greet name="Peter" heroName="Spiderman"/>
+      <Greet name="Peter" heroName="Spiderman"/> */}
 
 
       {/* <Welcome /> */}
       {/* <Hello /> */}
       {/* <Message /> */}
       {/* <Counter /> */}
+      {/* <FunctionClick /> */}
+      {/* <ClassClick /> */}
+      {/* <EventBind /> */}
     </div>
   );
 }
