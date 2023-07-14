@@ -7,6 +7,7 @@ import FunctionClick from "./components/FunctionClick";
 import Greet from "./components/Greet";
 import Hello from "./components/Hello";
 import Message from "./components/Message";
+import NameList from "./components/NameList";
 import ParentComponent from "./components/ParentComponent";
 import Props from "./components/Props";
 import UserGreeting from "./components/UserGreeting";
@@ -32,7 +33,8 @@ function App() {
       {/* <ClassClick /> */}
       {/* <EventBind /> */}
       {/* <ParentComponent /> */}
-      <UserGreeting />
+      {/* <UserGreeting /> */}
+      <NameList />
     </div>
   );
 }
