@@ -1,13 +1,10 @@
-
 import "./App.css";
-import RefsDemo from "./components/RefsDemo";
-
-
+import PortalDemo from "./components/PortalDemo";
 
 function App() {
   return (
     <div className="App">
-    <RefsDemo />
+      <PortalDemo />
     </div>
   );
 }
