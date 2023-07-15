@@ -7,7 +7,8 @@ const heading = {
 
 const Inline = () => {
   return (
-    <div style={heading}>Inline</div>
+    <div style={heading}>Inline
+    </div>
   )
 }
 
