@@ -1,14 +1,13 @@
 
 import "./App.css";
-import FragmentDemo from "./components/FragmentDemo";
-import Table from "./components/Table";
+import RefsDemo from "./components/RefsDemo";
+
 
 
 function App() {
   return (
     <div className="App">
-     {/* <FragmentDemo /> */}
-     <Table />
+    <RefsDemo />
     </div>
   );
 }
