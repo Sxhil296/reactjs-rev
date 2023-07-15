@@ -6,10 +6,12 @@ import EventBind from "./components/EventBind";
 import FunctionClick from "./components/FunctionClick";
 import Greet from "./components/Greet";
 import Hello from "./components/Hello";
+import Inline from "./components/Inline";
 import Message from "./components/Message";
 import NameList from "./components/NameList";
 import ParentComponent from "./components/ParentComponent";
 import Props from "./components/Props";
+import Stylesheet from "./components/Stylesheet";
 import UserGreeting from "./components/UserGreeting";
 import Welcome from "./components/Welcome";
 
@@ -34,7 +36,9 @@ function App() {
       {/* <EventBind /> */}
       {/* <ParentComponent /> */}
       {/* <UserGreeting /> */}
-      <NameList />
+      {/* <NameList /> */}
+    {/* <Stylesheet primary={true}/> */}
+    <Inline />
     </div>
   );
 }
